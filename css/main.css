@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+.navbar
+{
+    font-weight:700;
+    font-size:0.9rem;
+    background:rgba(0,0,0,0.06)!important;
+}
+.navbar-nav
+{
+    padding-right:.7rem;
+    
+}
+.navbar-nav .navbar-light .nav-link
+{
+    color:white;
+    padding-top:.8rem;
+}
+.navbar-nav .navbar-light .nav-link.active
+.navbar-nav .navbar-light .nav-link.active:hover
+{
+    color:#1ebba3;
+}
+.home-inner{
+	background-image: url("../image/Group 22.png");
+	background-size: cover;
+	height: 100vh;
+	padding: 0px;
+	background-position: center;
+}
+.services h3
+{
+	font-weight: 600;
+	font-size: 24px; 
+	padding-top: 10%;
+	color: #F9B233;
+}
+.services h1
+{
+	font-weight: 600;
+	font-size: 36px;
+}
+.services p
+{
+	padding-top: 30px;
+    padding-bottom:20px;
+	font-size: 18px;
+	line-height: 30px;
+}
+.addresspickup h3
+{
+	padding-top: 15px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 32px;
+}
+.addresspickup p
+{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.noidung h1
+{
+    width: 488px;
+    height: 97px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+}
+.noidung p
+{
+    width: 570px;
+    height: 118px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+.noidung h3
+{
+    width: 570px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+}
+.vehicles h3
+{
+    height: 48px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    color: #F9B233;
+}
+.vehicles h1
+{
+    height: 35px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    padding-bottom:50px;
+}
+.box
+{
+    background: #272727;
+/*
+    width: 240px;
+    height: 227px;
+    text-align:center;
+*/
+}
+/*
+.box h4
+{
+    width: 164px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+.box p
+{
+    width: 161px;
+    height: 72px;
+}
+
+*/
+.trai p
+{
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom:3%;
+}
+.trai h1
+{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    padding-bottom:3%;
+}
+.clients p
+{
+height: 97px;
+font-size: 14px;
+line-height: 28px;
+}
+/*
+.narrow
+{
+    width:75%;
+    margin:1.5rem auto;
+}*/
+.jumbotron
+{
+    margin-bottom:0;
+    padding:2rem 0 3.5rem;
+}
+.offset:before{
+    display:block;
+    content:"";
+    height:4rem;
+    margin-top:-4rem;
+}
+.fixed-background
+{
+    background-image:url("../image/Group 22.png");
+    z-index:-1;
+    
+}
+@media screen and (max-width:768px){
+.services h3
+    {
+        color:black;
+}
+    }
